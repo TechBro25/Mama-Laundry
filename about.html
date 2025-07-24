@@ -3,19 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAMA LAUNDRY - Your Trusted Laundry & Dry Cleaning Service</title>
-    <meta name="description" content="MAMA LAUNDRY - Professional laundry and dry cleaning services with mother's touch. Washing, ironing, pickup & delivery available.">
-    <meta name="keywords" content="laundry, dry cleaning, washing, ironing, pickup delivery, MAMA LAUNDARY">
+    <title>Our Services - MAMA LAUNDARY</title>
+    <meta name="description" content="Professional laundry services including washing, ironing, dry cleaning, and pickup & delivery. Contact for pricing.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E👕%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="spinner"></div>
-        <p>Loading MAMA LAUNDRY...</p>
-    </div>
-
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -23,10 +16,10 @@
                 <h2>MAMA LAUNDRY</h2>
             </div>
             <div class="nav-menu" id="nav-menu">
-                <a href="index.html" class="nav-link active">Home</a>
+                <a href="index.html" class="nav-link">Home</a>
                 <a href="about.html" class="nav-link">About</a>
-                <a href="services.html" class="nav-link">Services</a>
-                
+                <a href="services.html" class="nav-link active">Services</a>
+             
                 <a href="testimonials.html" class="nav-link">Testimonials</a>
                 <a href="faq.html" class="nav-link">FAQ</a>
                 <a href="contact.html" class="nav-link">Contact</a>
@@ -39,85 +32,187 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title fade-in">Welcome to <span class="highlight">MAMA LAUNDRY</span></h1>
-            <p class="hero-subtitle fade-in">Your Trusted Laundry & Dry Cleaning Service</p>
-            <p class="hero-motto fade-in">"Mother touch in every wash"</p>
-            <div class="hero-buttons fade-in">
-                <button class="btn btn-primary" onclick="playWelcomeVoice()">🔊 Play Welcome Message</button>
-                <a href="contact.html" class="btn btn-primary">Contact Us</a>
-                <a href="services.html" class="btn btn-secondary">Our Services</a>
-            </div>
-        </div>
-        <div class="hero-image fade-in">
-            <img src="https://images.pexels.com/photos/5591663/pexels-photo-5591663.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Professional Laundry Service">
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="fade-in">Our Services</h1>
+            <p class="fade-in">Professional laundry and dry cleaning services with mother's touch</p>
         </div>
     </section>
 
-    <!-- Quick Services -->
-    <section class="quick-services">
+    <!-- Main Services -->
+    <section class="services-section">
         <div class="container">
-            <h2 class="section-title fade-in-scroll">Our Services</h2>
             <div class="services-grid">
-                <div class="service-card fade-in-scroll">
-                    <div class="service-icon">👕</div>
-                    <h3>Washing</h3>
-                    <p>Professional washing with premium detergents</p>
+                <div class="service-detailed-card fade-in-scroll">
+                    <div class="service-image">
+                        <img src="img/Home Cleaning _ ehow.jpg" alt="Washing Service">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">👕</div>
+                        <h3>Professional Washing</h3>
+                        <p>Our premium washing service uses high-quality detergents and fabric softeners to ensure your clothes come out fresh, clean, and soft. We sort your garments by color and fabric type to prevent damage and maintain quality.</p>
+                        <ul class="service-features">
+                            <li>Color-safe washing</li>
+                            <li>Premium detergents</li>
+                            <li>Fabric-specific care</li>
+                            <li>Stain pre-treatment</li>
+                        </ul>
+                        <div class="service-pricing">
+                            <p class="pricing-note">Contact for Pricing</p>
+                            <a href="contact.html" class="btn btn-primary">Request Quote</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="service-card fade-in-scroll">
-                    <div class="service-icon">👔</div>
-                    <h3>Ironing</h3>
-                    <p>Crisp, professional ironing for all garments</p>
+
+                <div class="service-detailed-card fade-in-scroll">
+                    <div class="service-image">
+                        <img src="img/A man is ironing a shirt with an electric iron on ironing board_.jpg" alt="Ironing Service">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">👔</div>
+                        <h3>Expert Ironing</h3>
+                        <p>Our skilled team provides crisp, professional ironing services for all types of garments. From everyday clothes to formal wear, we ensure every piece looks its absolute best.</p>
+                        <ul class="service-features">
+                            <li>Professional pressing</li>
+                            <li>Wrinkle-free finish</li>
+                            <li>Proper garment shaping</li>
+                            <li>Steam finishing</li>
+                        </ul>
+                        <div class="service-pricing">
+                            <p class="pricing-note">Contact for Pricing</p>
+                            <a href="contact.html" class="btn btn-primary">Request Quote</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="service-card fade-in-scroll">
-                    <div class="service-icon">✨</div>
-                    <h3>Dry Cleaning</h3>
-                    <p>Specialized dry cleaning for delicate items</p>
+
+                <div class="service-detailed-card fade-in-scroll">
+                    <div class="service-image">
+                        <img src="img/Laundry & Cleaning _ Visiê Arquitetura.jpg" alt="Dry Cleaning Service">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">✨</div>
+                        <h3>Premium Dry Cleaning</h3>
+                        <p>Specialized dry cleaning for delicate fabrics and garments that require special care. Our eco-friendly dry cleaning process preserves fabric quality while removing stains and odors effectively.</p>
+                        <ul class="service-features">
+                            <li>Eco-friendly solvents</li>
+                            <li>Delicate fabric care</li>
+                            <li>Stain removal expertise</li>
+                            <li>Garment preservation</li>
+                        </ul>
+                        <div class="service-pricing">
+                            <p class="pricing-note">Contact for Pricing</p>
+                            <a href="contact.html" class="btn btn-primary">Request Quote</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="service-card fade-in-scroll">
-                    <div class="service-icon">🚚</div>
-                    <h3>Pickup & Delivery</h3>
-                    <p>Convenient pickup and delivery service</p>
+
+                <div class="service-detailed-card fade-in-scroll">
+                    <div class="service-image">
+                        <img src="img/Delivery Service Photos - Download Free High-Quality Pictures _ Freepik.jpg" alt="Pickup and Delivery Service">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">🚚</div>
+                        <h3>Pickup & Delivery</h3>
+                        <p>Convenient pickup and delivery service to save you time. Schedule a pickup at your convenience and we'll deliver your freshly cleaned garments right to your door.</p>
+                        <ul class="service-features">
+                            <li>Flexible scheduling</li>
+                            <li>Door-to-door service</li>
+                            <li>Safe handling</li>
+                            <li>Timely delivery</li>
+                        </ul>
+                        <div class="service-pricing">
+                            <p class="pricing-note">Contact for Pricing</p>
+                            <a href="contact.html" class="btn btn-primary">Request Quote</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Choose Us -->
-    <section class="why-choose-us">
+    <!-- Additional Services -->
+    <section class="additional-services">
         <div class="container">
-            <h2 class="section-title fade-in-scroll">Why Choose MAMA LAUNDRY?</h2>
-            <div class="features-grid">
-                <div class="feature-item fade-in-scroll">
-                    <div class="feature-icon">❤️</div>
-                    <h3>Mother's Touch</h3>
-                    <p>Every garment is treated with the care and attention a mother gives</p>
+            <h2 class="section-title fade-in-scroll">Additional Services</h2>
+            <div class="additional-services-grid">
+                <div class="additional-service fade-in-scroll">
+                    <div class="service-icon">🧺</div>
+                    <h4>Wash & Fold</h4>
+                    <p>Complete wash, dry, and fold service for your everyday laundry</p>
                 </div>
-                <div class="feature-item fade-in-scroll">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Quick Service</h3>
-                    <p>Fast turnaround time without compromising on quality</p>
+                <div class="additional-service fade-in-scroll">
+                    <div class="service-icon">👰</div>
+                    <h4>Wedding Dress Care</h4>
+                    <p>Specialized cleaning and preservation for wedding dresses</p>
                 </div>
-                <div class="feature-item fade-in-scroll">
-                    <div class="feature-icon">🏆</div>
-                    <h3>Premium Quality</h3>
-                    <p>State-of-the-art equipment and premium cleaning products</p>
+                <div class="additional-service fade-in-scroll">
+                    <div class="service-icon">🏠</div>
+                    <h4>Household Items</h4>
+                    <p>Cleaning service for curtains, comforters, and bedding</p>
+                </div>
+                <div class="additional-service fade-in-scroll">
+                    <div class="service-icon">🕴️</div>
+                    <h4>Corporate Services</h4>
+                    <p>Bulk laundry services for offices and businesses</p>
+                </div>
+                <div class="additional-service fade-in-scroll">
+                    <div class="service-icon">⚡</div>
+                    <h4>Express Service</h4>
+                    <p>Same-day or next-day service for urgent needs</p>
+                </div>
+                <div class="additional-service fade-in-scroll">
+                    <div class="service-icon">🔧</div>
+                    <h4>Alterations</h4>
+                    <p>Basic alterations and repairs for your garments</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Call to Action -->
+    <!-- Service Process -->
+    <section class="service-process">
+        <div class="container">
+            <h2 class="section-title fade-in-scroll">Our Process</h2>
+            <div class="process-steps">
+                <div class="process-step fade-in-scroll">
+                    <div class="step-number">1</div>
+                    <h3>Drop Off or Pickup</h3>
+                    <p>Bring your items to our store or schedule a convenient pickup</p>
+                </div>
+                <div class="process-step fade-in-scroll">
+                    <div class="step-number">2</div>
+                    <h3>Inspection & Sorting</h3>
+                    <p>We carefully inspect and sort your garments by fabric and care requirements</p>
+                </div>
+                <div class="process-step fade-in-scroll">
+                    <div class="step-number">3</div>
+                    <h3>Professional Cleaning</h3>
+                    <p>Your items receive our signature mother's touch treatment</p>
+                </div>
+                <div class="process-step fade-in-scroll">
+                    <div class="step-number">4</div>
+                    <h3>Quality Check</h3>
+                    <p>Every item is thoroughly inspected to ensure it meets our high standards</p>
+                </div>
+                <div class="process-step fade-in-scroll">
+                    <div class="step-number">5</div>
+                    <h3>Ready for Pickup</h3>
+                    <p>Your freshly cleaned garments are ready for pickup or delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
             <div class="cta-content fade-in-scroll">
-                <h2>Ready to Experience the Mother's Touch?</h2>
-                <p>Contact us today for professional laundry services</p>
+                <h2>Ready to Experience Our Service?</h2>
+                <p>Contact us today for a personalized quote</p>
                 <div class="cta-buttons">
-                    <a href="tel:07031339900" class="btn btn-primary">📞 Call Now</a>
-                    <a href="contact.html" class="btn btn-secondary">Get Quote</a>
+                    <a href="contact.html" class="btn btn-primary">Get Your Quote</a>
+                    <a href="tel:07031339900" class="btn btn-secondary">📞 Call Now</a>
                 </div>
             </div>
         </div>
@@ -128,7 +223,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>MAMA LAUNDRY</h3>
+                    <h3>MAMA LAUNDARY</h3>
                     <p>"Mother touch in every wash"</p>
                     <div class="contact-info">
                         <p>📞 <a href="tel:07031339900">07031339900</a></p>
@@ -167,6 +262,6 @@
     <!-- Back to Top Button -->
     <button id="back-to-top" class="back-to-top">↑</button>
 
-     <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
